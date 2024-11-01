@@ -57,7 +57,7 @@ def neural_net_layer(array_0, array_1):
     assert array_0.shape[1] == array_1.shape[0]
 
     mat = np.matmul(array_0, array_1.T)
-    return ReLU(mat)
+    return ReLu(mat)
 
 
 # ------------------------------------------
